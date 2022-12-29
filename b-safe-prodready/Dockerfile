@@ -11,8 +11,8 @@ gnupg-agent \
 software-properties-common
 RUN apt-get install -y maven
 RUN apt-get install -y git
-RUN git clone https://github.com/Sangram-Nayak77/devops-prodready.git
-WORKDIR ./snayak
+RUN git clone https://github.com/ArchK27/B-Safe-DevOps.git
+WORKDIR ./ArchanaK
 RUN mvn clean install
 RUN mvn test
 RUN mvn clean package
